@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      #navbar {
+        height: 55px;
+        width: 100%;
+        /* border: 1px solid; */
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(115, 178, 178);
+      }
+      #form {
+        height: 350px;
+        width: 370px;
+        border: 1px solid;
+        margin: auto;
+        margin-top: 70px;
+        border-radius: 10px;
+        background-color: bisque;
+      }
+      h2 {
+        text-align: center;
+      }
+      #name {
+        margin-left:60px;
+        width:65%;
+        height: 27px;
+        
+      }
+      #email {
+        margin-left:60px;
+        width:65%;
+        height: 27px;
+        margin-top: 20px;
+      }
+
+      #address {
+        margin-left:60px;
+        width:65%;
+        height: 27px;
+        margin-top: 20px;
+      }
+
+      #amount {
+        margin-left:60px;
+        width:65%;
+        height: 27px;
+        margin-top: 20px;
+      }
+
+      #submit {
+        margin-left:125px;
+        padding: 7px 35px;
+        margin-top: 20px;
+        font-size: 16px;
+        border-radius: 8px;
+        background-color: cornflowerblue;
+        color: aliceblue;
+        border: none;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h3>Sign Up</h3>
+      <a href="voucher.html">Purchase Voucher</a>
+    </div>
+
+<form id="form">
+  <h2>SignUp</h2>
+  <input type="text" id="name" placeholder="Name"><br>
+  <input type="text" id="email" placeholder="Email"><br>
+  <input type="text" id="address" placeholder="Address"><br>
+  <input type="text" id="amount" placeholder="Amount"><br>
+  <input id="submit" type="submit">
+</form>
+    <!-- - name input box :- "name"
+  - email input box :- "email"
+  - Address input box :- "address"
+  - Amount input box :- "amount" 
+  - Submit button :- "submit"
+  - The user will be stored with key:- "user"
+  - The input fields should become empty after submitting -->
+  </body>
+</html>
+<script src="./scripts/main.js"></script>
